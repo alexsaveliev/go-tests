@@ -1,6 +1,10 @@
 package main
 
-xfunc main() {
+import (
+	_ "github.com/mattn/go-isatty"
+)
+
+func main() {
 	println("hello")
 
 }
