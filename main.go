@@ -1,6 +1,6 @@
 package main
 
-xfunc main() {
+func main() {
 	println("hello")
 
 }
