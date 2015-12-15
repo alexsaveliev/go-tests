@@ -6,7 +6,7 @@ before_install:
   - rm -rf $HOME/godep 
   - git clone https://github.com/tools/godep
   - cd $HOME/godep 
-  - git checkout f5c4068a0cbc1fa8a4f101da43b1049b930918a4
+  - git checkout 0d6d0b2eb19b2805ab059ee4d91067839f203923
   - git reset --hard
   - go get -d -v ./...
   - go build ./...
