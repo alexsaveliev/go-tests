@@ -1,0 +1,13 @@
+{
+	"ImportPath": "sourcegraph.com/sourcegraph/srclib",
+	"GoVersion": "go1.5.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "7fcbc72f853b92b5720db4a6b8482be612daef24"
+		}
+	]
+}
