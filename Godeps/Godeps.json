@@ -6,7 +6,7 @@
 	],
 	"Deps": [
 		{
-			"ImportPath": "github.com/mattn/go-isatty",
+			"ImportPath": "github.com/alexsaveliev/go-isatty",
 			"Rev": "7fcbc72f853b92b5720db4a6b8482be612daef24"
 		}
 	]
