@@ -8,6 +8,7 @@ before_install:
   - cd $HOME/godep 
   - git checkout f5c4068a0cbc1fa8a4f101da43b1049b930918a4
   - git reset --hard
+  - go get -d -v ./...
   - go build .
 
 install:
