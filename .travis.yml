@@ -3,8 +3,8 @@ go: 1.5
 
 before_install:
   - rm -rf ~/godep 
-  - cd godep 
   - git clone github.com/tools/godep
+  - cd godep 
   - git checkout f5c4068a0cbc1fa8a4f101da43b1049b930918a4
   - git reset --hard
   - go build ./..
